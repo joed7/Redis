@@ -41,7 +41,7 @@ LTRIM news 0 10
 LRANGE news 0 -1
 ``` 
 
-* Maintaining items like message, blogs etc on a website
+* Maintaining items like message, blogs etc on a website.
 ```
 LPUSH posts post1
 LPUSH posts post2
