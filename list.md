@@ -2,7 +2,7 @@
 
 List is Redis a sequence of ordered elements: 1,2,3,4,5. Lists in Redis are implemented via Linked List, which means that even in a list with millions of items, the operation of adding a new element at the beginning or end is performed in constant time;  Redis Lists are implemented with linked lists because for a database system it is crucial to be able to add elements to a very long list in a very fast way.
 
-__Important List functions__
+__Important [List](http://redis.io/commands#list) functions__
 
 * __LPUSH Key Value__: Adds an element or more than one element on the left of the list(at the beginning).  
 `LPUSH mylist A #Adds A at the beginning of the list`  

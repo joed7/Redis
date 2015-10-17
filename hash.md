@@ -1,7 +1,7 @@
 ##Hashes
 Redis Hashes are maps between string fields and string values, so they are the perfect data type to represent objects.
 
-__Important Hash functions__
+__Important [Hash](http://redis.io/commands#hash) functions__
 
 * __HMSET key field value [field value...]__: Sets the specified fields to their respective values in the hash stored at key. 
 
