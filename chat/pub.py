@@ -14,7 +14,8 @@ if __name__ == '__main__':
     channel = sys.argv[2]
 
     print 'Welcome to '+channel
-
+    print 'Type exit to exit'
+    
     while True:
         message = raw_input('Enter a message: ')
 
