@@ -16,4 +16,4 @@ __Important [Pub/Sub](http://redis.io/commands#pubsub) functions__:
 
 __Common use case__
 
-Redis pub/sub can be used to implement mobile game chat where we can one __global channel__ for system wide chat and __alliance channel__ for each alliance. All the users will subscribe to global channel and alliance channel for their alliance.
+Redis pub/sub can be used to implement mobile game chat, where we can have one __global channel__ for system wide chat and __alliance channel__ for each alliance. All the users of the game will subscribe to global channel and alliance channel for their alliance.
