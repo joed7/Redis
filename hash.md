@@ -27,7 +27,7 @@ HMSET twitter:user:1 name "rohit" followers "20" following "50" #defines twitter
 `HDEL user:1 city #deletes the city attribute for user`
 
 * __HEXISTS key field__: Returns if field is an existing in hash. 1 if hash contains field, 0 if it doesn't.  
-`HEXISTS user:1 citty #checks if city attribute exists for user:1`
+`HEXISTS user:1 city #checks if city attribute exists for user:1`
 
 __Common Use cases__
 
