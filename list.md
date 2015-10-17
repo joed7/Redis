@@ -6,13 +6,16 @@ __Important List functions__
 
 * __LPUSH Key Value__: Adds an element or more than one element on the left of the list(at the beginning).  
 `LPUSH mylist A #Adds A at the beginning of the list`  
-`LPUSH grand_slam "US OPEN" "Wimbeldon" "French Open" "Australian Open"` #list with grand slams in chronological order  
+`LPUSH grand_slam "US OPEN" "Wimbeldon" "French Open" "Australian Open"` #list with grand slams in chronological order   
+
 * __RPUSH Key Value__: Adds an element or more than one element on the right of the list(at the end)  
 `RPUSH mylist B #Adds B at the end of the list`  
 `RPUSH grand_slam "Australian Open" "French Open" "Wimbeldon" "US OPEN"` #list with grand slams in chronological order 
+
 * __LRANGE Key Start Stop__: Returns the specified elements of the list stored at key.  
 `LRANGE mylist 0 2 #print the first 3 elements of the list`  
 `LRANGE mylist 0 -1 #print all the elements of the list`  
+
 * __LTRIM key Start Stop__: Trim an existing list so that it will contain only the specified range of elements specified.   
 ```
 LPUSH mylist element1

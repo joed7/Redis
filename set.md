@@ -6,16 +6,22 @@ __Important Set functions__
 
 * __SADD key member [member ...]__: Add one or more members to a set. Returns number of added elements.  
 `SADD set1 Hello`  
+
 * __SREM key member [member ...]__: Removes one or more members from a set. Returns number of removed elements.  
 `SREM set1 Hello`  
+
 * __SISMEMBER key member__: Checks if member is a member of a set. Returns 1 is a member of the set  or 0 if it does not.  
 `SISMEMBER set1 one`   
+
 * __SMEMBERS key__: Returns all the members of a set.  
 `SMEMBERS set1`  
+
 * __SINTER key1 key2 key3__: Returns the members of the set resulting from the intersection of the given sets.  
 `SINTER set1 set2`  
+
 * __SUNION key1 key2__: Returns the members of the set resulting from the union of all the given sets.  
 `SUNION set1 set2`  
+
 * __SCARD key__: Returns the number of elements of a set.
 
 __Common Use Cases__
