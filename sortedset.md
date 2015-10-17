@@ -7,19 +7,19 @@ __Important Sorted-Sets functions__
 * __ZADD key score member [score member...]__: Adds all the specified members with the specified scores to the sorted set stored at key. If a specified member is already a member of the sorted set, the score is updated and the element reinserted at the right position to ensure the correct ordering.   
 `ZADD myset 5 "player1"`
 
-* __ZREM key member [member..]__:Removes all the specified members from the sorted set.
+* __ZREM key member [member..]__:Removes all the specified members from the sorted set.  
 `ZREM myset "player1"`
 
-* __ZRANGE key start stop__: Returns the specified range of elements from the sorted set. It is important to note that in sorted sets elements are ordered from lowest to highest score.
+* __ZRANGE key start stop__: Returns the specified range of elements from the sorted set. It is important to note that in sorted sets elements are ordered from lowest to highest score.  
 `ZRANGE myset 0 4 #returns the members with four lowest scores`
 
-* __ZRANGEBYSCORE key min max__: Returns all the elements in the sorted with a score between min and max (inclusive).
+* __ZRANGEBYSCORE key min max__: Returns all the elements in the sorted with a score between min and max (inclusive).  
 `ZRANGEBYSCORE myset 0 5`
 
-* __ZRANK key member__: Returns rank of a member in the sorted set.
+* __ZRANK key member__: Returns rank of a member in the sorted set.  
 `ZRANK myset player1`
 
-* __ZSCORE key member__: Returns the score of a member in the sorted set.
+* __ZSCORE key member__: Returns the score of a member in the sorted set.  
 `ZSCORE myset player1`
 
 __Common Use Cases__
