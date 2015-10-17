@@ -18,10 +18,9 @@ if __name__ == '__main__':
     while True:
         message = raw_input('Enter a message: ')
 
-        if message.lower() == 'exit':
-            break
-
-        message = name +" says: "+message
-
-        r.publish(channel, message)
-
+        if message.find('exit') != -1:
+            print 'Closing the channel'
+            r.publish(channel, message)                        
+            break            
+        else:
+            r.publish(channel, message)            

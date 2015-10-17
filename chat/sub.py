@@ -19,5 +19,10 @@ if __name__ == '__main__':
     while True:
         for item in pubsub.listen():
             msg=item['data']
+            if str(msg).find('exit') != -1:
+                pubsub.unsubscribe()
+                print 'Unsubscribed from the channel'
+                sys.exit()
             print msg
+            
                     
