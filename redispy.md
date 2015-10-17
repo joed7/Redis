@@ -19,15 +19,23 @@ r = redis.Redis(host='localhost',password='')
 #check if connection exists
 r.ping()
 
+```
+
+__Using Redis data structures with Redis-Py__
+
+* __String__  
+```
+import redis
+r = redis.Redis(host='localhost',password='')
+
+r.ping()
+
 #setting a key 
 r.set('name','rohit') 
 
 #querying a key
 print r.get('name')
-
 ```
-
-__Using Redis data structures with Redis-Py__
 
 * __List__
 ```
