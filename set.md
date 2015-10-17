@@ -2,7 +2,7 @@
 
 Redis Sets are __unordered__ collections of unqiue strings. Some of the common operations with sets are testing if a given element already exists, performing the intersection, union or difference between multiple sets, and so forth. Key point to note is that set can perform add, remove, find operations in constant time.
 
-__Important Set functions__
+__Important [Set](http://redis.io/commands#set) functions__
 
 * __SADD key member [member ...]__: Add one or more members to a set. Returns number of added elements.  
 `SADD set1 Hello`  
