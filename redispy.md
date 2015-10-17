@@ -63,7 +63,7 @@ print r.lrange('msgQueue',0,1)
 ```
 * __Set__
 ```
-'''Python script demonstrating using sets with Redis-y
+'''Python script demonstrating using sets with Redis-py
 '''
  
 import redis
@@ -88,4 +88,33 @@ print r.sismember('visitors','A')
 print r.sismember('visitors','E')
 ```
 
-* __Sorted-Set__
+* __Hash and Sorted-Sets__
+
+```
+import redis
+
+#Opens a connections to redis
+r = redis.Redis(host='localhost',password='')
+
+r.delete('player:1')
+r.delete('player:2')
+r.delete('player:3')
+r.delete('player:4')
+r.delete('leaderboard')
+
+#Hash Representing user objects
+r.hmset('player:1',{'id':1,'dname':'xyz','platform':'android'})
+r.hmset('player:2',{'id':2,'dname':'pqr','platform':'ios'})
+r.hmset('player:3',{'id':3,'dname':'xxx','platform':'winodws'})
+r.hmset('player:4',{'id':4,'dname':'yyy','platform':'online'})
+
+
+#adding entries to sorted set, user_id,score
+r.zadd('leaderboard','1',15,'2',25)
+r.zadd('leaderboard','3',9)
+r.zadd('leaderboard','4',0)
+
+#getting id for the user with highest score
+id=r.zrevrange('leaderboard',0,0)
+print 'display name of the player with higest score: '+r.hget('player:'+str(id[0]),'dname')
+```
