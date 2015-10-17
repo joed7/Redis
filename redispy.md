@@ -29,7 +29,7 @@ print r.get('name')
 
 __Using Redis data structures with Redis-Py__
 
-###List
+__List__
 ```
 '''Python script demonstrating using list with Redis-Py
 '''
@@ -53,7 +53,7 @@ print r.lrange('msgQueue',0,-1)
 print r.lrange('msgQueue',0,1)
 
 ```
-###Set
+__Set__
 ```
 '''Python script demonstrating using sets with Redis-y
 '''
@@ -80,4 +80,4 @@ print r.sismember('visitors','A')
 print r.sismember('visitors','E')
 ```
 
-###Sorted-Set
+__Sorted-Set__
