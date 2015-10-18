@@ -17,3 +17,21 @@ __Important [Pub/Sub](http://redis.io/commands#pubsub) functions__:
 __Common use case__
 
 Redis pub/sub can be used to implement mobile game chat, where we can have one __global channel__ for system wide chat and __alliance channel__ for each alliance. All the users of the game will subscribe to global channel and alliance channel for their alliance.
+
+
+__Redis Pub/Sub in python__  
+
+A very basic chat implmentation using Redis Pub/Sub in python can be found [here](https://github.com/joed7/Redis/tree/master/chat).
+The example consists of a [publisher](https://github.com/joed7/Redis/blob/master/chat/pub.py) and [subscriber](https://github.com/joed7/Redis/blob/master/chat/sub.py). Both of them are python scripts and can be executed as follws:
+
+```
+python pub.py sender channel
+
+python sub.py channel
+```
+
+Publisher sends the message to the specfied channel until it encouters exit message; Subscriber subscribes to the specified channel and receives 
+messages until it encounters the exit message,On encountering exit message, it unsubscribes from that channel and exits.
+
+
+ 
