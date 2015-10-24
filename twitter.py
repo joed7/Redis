@@ -150,4 +150,5 @@ tweet('rohit','tweet8')
 
 info('rohit')
 
+#comment out reset to not to reset twitter data
 reset()
