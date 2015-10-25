@@ -8,13 +8,13 @@ The application consists of the following entities:
 
 * __Followers(Sets)__: Follower of Users. The set will consist of the user_ids of all of the users following a particular user. Sample keys, followers:1,followers:2.
 
-* __Following(Sets)__: Users a user is following, The set will consist of the user_id of all the user, a particular is following. Sample keys following:1, following:2.
+* __Following(Sets)__: Users a user is following, The set will consist of the user_id of all the user, a particular user is following. Sample keys following:1, following:2.
 
 * __Tweets(Lists)__: List of the tweets of a particular user. Sample keys tweets:1, tweets:2
 
 * __Counter(String)__: Counter keeping track of the users in the application, Used to assign user_id to the user. Key in the database for this entity __users__.
 
-* __Usernames(Hash)__: A hash storing the mapping for usernames and userid.
+* __Usernames(Hash)__: A hash storing the mapping for usernames and userid. Key for this entitly in the database __unames__.
 
 
 __Implementation Details__
@@ -27,6 +27,6 @@ __Implementation Details__
 
 * __Unfollow__:  The methods takes two parameters source_user_id(user following), target_user_id(user being followed). Appropriate followers, following sets are then modified using `srem`.
 
-* __Info__: The method takes username as a parameter. For that parameters, we fetch the user_id is fetched, and fetch the data from follow, following, tweet keys.
+* __Info__: The method takes username as a parameter. For that parameters, we fetch the user_id for this user_name, and, using that user_id, we fetch the data from follow, following, tweet keys.
 
 [Previous](https://github.com/joed7/Redis/blob/master/redispy.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/pubsub.md)
