@@ -13,3 +13,5 @@ Some key advantages of Redis are as follows:
 * Redis supports master-slave replication that allows slave Redis servers to be exact copies of master servers.
 
 * Redis provides fast Publish/Subscribe messaging system which can be used to implement message queues.
+
+[Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/installation.md)
