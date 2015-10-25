@@ -118,3 +118,5 @@ r.zadd('leaderboard','4',0)
 id=r.zrevrange('leaderboard',0,0)
 print 'display name of the player with higest score: '+r.hget('player:'+str(id[0]),'dname')
 ```
+
+[Previous](https://github.com/joed7/Redis/blob/master/sortedset.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/twitter.md)

@@ -24,4 +24,6 @@ __Different implementation of partitioning__
 
 * __Proxy assisted partitioning__: It means that our clients send requests to a proxy that is able to speak the Redis protocol, instead of sending requests directly to the right Redis instance. The proxy will make sure to forward our request to the right Redis instance accordingly to the configured partitioning schema, and will send the replies back to the client.
 
-* __Query routing__: It means that you can send your query to a random instance, and the instance will make sure to forward your query to the right node
+* __Query routing__: It means that you can send your query to a random instance, and the instance will make sure to forward your query to the right node.
+
+[Previous](https://github.com/joed7/Redis/blob/master/transaction.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/persistence.md)

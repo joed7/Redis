@@ -38,6 +38,5 @@ HMSET tweet:101  user "user1" tweet "text"  time "time" #defines a tweet object
 
 ```
 
-
-
+[Previous](https://github.com/joed7/Redis/blob/master/string.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/list.md)
  
