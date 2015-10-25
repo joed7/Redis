@@ -14,4 +14,4 @@ Some key advantages of Redis are as follows:
 
 * Redis provides fast Publish/Subscribe messaging system which can be used to implement message queues.
 
-[Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/installation.md)
+[Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/installation.md)
