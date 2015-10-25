@@ -33,6 +33,6 @@ python sub.py channel
 Publisher sends the message to the specfied channel until it encouters exit message; Subscriber subscribes to the specified channel and receives 
 messages until it encounters the exit message,On encountering exit message, it unsubscribes from that channel and exits.
 
-[Previous](https://github.com/joed7/Redis/blob/master/twitter.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/pipelining.md)
+[Previous](https://github.com/joed7/Redis/blob/master/twitter.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/pipelining.md)
 
  

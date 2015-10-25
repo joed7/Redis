@@ -29,4 +29,4 @@ __Note__: As per official documentation, The Redis project does not officially s
 Refer to the [documentation](http://redis.io/download) for more information.
 
 
-[Previous](https://github.com/joed7/Redis/blob/master/introduction.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/string.md)
+[Previous](https://github.com/joed7/Redis/blob/master/introduction.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/string.md)

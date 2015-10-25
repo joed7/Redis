@@ -29,4 +29,4 @@ The problem with __AOF__ is that the operating system maintains an output buffer
 
 The everysec option is the default and it's sufficient for most installations.
 
-[Previous](https://github.com/joed7/Redis/blob/master/partitioning.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/furtherreading.md)
+[Previous](https://github.com/joed7/Redis/blob/master/partitioning.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/furtherreading.md)

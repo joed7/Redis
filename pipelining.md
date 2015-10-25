@@ -33,4 +33,4 @@ print("--- %s seconds without Pipelining ---" % (time.time() - start_time))
 
 In this example, we are trying to set 100,000 keys. Initially, we try it with pipe-lining by getting the pipeline object, calling the set function for each key and then calling execute on that pipe object; After that, we try to do the same thing without using pipe-lining, by sending each set call to the server separately. For my machine, code with pipelining took approx 1 sec, while code without pipelining took close 3.6 sec, thus highlighting the time saved when using pipelining.   
 
-[Previous](https://github.com/joed7/Redis/blob/master/pubsub.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/transaction.md)
+[Previous](https://github.com/joed7/Redis/blob/master/pubsub.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/transaction.md)

@@ -29,4 +29,4 @@ __Common Use Cases__
 * For a website like Reddit or Stackoverflow, Sorted Sets can be used to return posts exceeding certain number of votes or views using ZRANGEBYSCORE.
 
 
-[Previous](https://github.com/joed7/Redis/blob/master/set.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/redispy.md)
+[Previous](https://github.com/joed7/Redis/blob/master/set.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/redispy.md)

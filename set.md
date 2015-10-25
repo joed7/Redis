@@ -43,4 +43,4 @@ SADD tag:z 2 3 7 #Questions with tag z
 SINTER tag:x tag:y tag:z #Questions with tags x,y,x
 ```
 
-[Previous](https://github.com/joed7/Redis/blob/master/list.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/sortedset.md)
+[Previous](https://github.com/joed7/Redis/blob/master/list.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/sortedset.md)

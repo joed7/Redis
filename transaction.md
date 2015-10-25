@@ -57,4 +57,4 @@ redis.exec()
 ```
 If another client changes the value of counter after we’ve called watch on it, our transaction will fail. If no client changes the value, the set will work. We can execute this code in a loop until it works.
 
-[Previous](https://github.com/joed7/Redis/blob/master/pipelining.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/partitioning.md)
+[Previous](https://github.com/joed7/Redis/blob/master/pipelining.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/partitioning.md)

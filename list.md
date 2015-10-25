@@ -50,4 +50,4 @@ LPUSH posts post3
 
 ```
 
-[Previous](https://github.com/joed7/Redis/blob/master/hash.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/set.md)
+[Previous](https://github.com/joed7/Redis/blob/master/hash.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/set.md)

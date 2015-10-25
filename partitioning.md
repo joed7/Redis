@@ -26,4 +26,4 @@ __Different implementation of partitioning__
 
 * __Query routing__: It means that you can send your query to a random instance, and the instance will make sure to forward your query to the right node.
 
-[Previous](https://github.com/joed7/Redis/blob/master/transaction.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/persistence.md)
+[Previous](https://github.com/joed7/Redis/blob/master/transaction.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/persistence.md)

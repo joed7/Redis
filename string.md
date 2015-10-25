@@ -17,4 +17,4 @@ __Important [String](http://redis.io/commands#string) functions__
 * __APPEND key value__: Appends the value to a key.  
 `APPEND msg hello`
 
-[Previous](https://github.com/joed7/Redis/blob/master/installation.md)  |  [Home](https://github.com/joed7/Redis)  |  [Next](https://github.com/joed7/Redis/blob/master/hash.md)
+[Previous](https://github.com/joed7/Redis/blob/master/installation.md)  |  [Home](https://github.com/joed7/Redis/blob/master/home.md)  |  [Next](https://github.com/joed7/Redis/blob/master/hash.md)
