@@ -1,6 +1,6 @@
 ##Further Reading
 
-This presentation gives a high level overview of Redis, RedisPy and their components. For more comprehensive understanding of Redis data-types, modules and administratiton tasks, please to refere to these resources
+This presentation gives a high level overview of Redis, RedisPy and their components. For more comprehensive understanding of Redis data-types, modules and administratiton tasks, please refer to these resources:
 
 * [Official Redis documentation](http://redis.io/documentation)
 * [Redis command lists](http://redis.io/commands)
