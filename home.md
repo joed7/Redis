@@ -1,6 +1,6 @@
 ##Redis
 
-This is the presentation on **Redis** as part of the [Foundation of Software Engineering] (http://www.cs.colorado.edu/~kena/classes/5828/f15/) course. The presentation gives a general overview of the the core concepts of this __NO-SQL__ database along with some discussion on its applications.
+This is the presentation on **Redis** as part of the [Foundation of Software Engineering] (http://www.cs.colorado.edu/~kena/classes/5828/f15/) course. The presentation gives a general overview of the the core concepts of this __NO-SQL__ database, its applications along with some discussion on a few aspects of its administration.
 
 Table of Contents
 
